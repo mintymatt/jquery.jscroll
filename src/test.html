@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Testing jQuery.Jscroll</title>
+</head>
+<body>
+	
+	<div class="desc">
+		<h1>
+			Usage:
+		</h1>
+		<p>
+			This is a script that provides scrolling on element click. Note scrolling is considered from the location of the element relative to the window.<br><br>
+        </p>
+        <p>
+            
+            &lt;a href=&quot;#&quot; class=&quot;jscroll&quot; data-jscroll-vh=&quot;1&quot; data-jscroll-offset=&quot;8&quot;&gt;Scroll 100vh Down&lt;/a&gt;
+        </p><br>
+        <code>Init:</code><p>
+
+            define link for scrolling by setting class name "jscroll".
+        </p><br>
+        <code>data-jscroll-vh=(int)</code><p>
+
+            Provide a (v)ertical (h)eight multplier. If none or 0 set, the page will scroll in the chosen direction
+            until it hits an end. I.E data-jscroll=2   ==  2*100vh
+        </p><br>
+        <code>data-jscroll-offset = (int = pixel value)</code><p>
+
+            apply an extra (pixel) offset to the scrolling. Useful if margins or paddings affect 100vh scrolling.
+        </p><br>
+        <code>data-jscroll-up</code><p>
+
+            By default scrolling is down. If you wish to scroll up instead, set this data attribute (no value needed)
+        </p>
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div class="big_element"><a href="#" class="jscroll" data-jscroll-vh="2" data-jscroll-offset="8">Scroll  200vh down</a><br><br>1</div>
+    <div class="big_element"><a href="#" class="jscroll" data-jscroll-vh="1" data-jscroll-offset="8">Scroll  100vh down</a><br><br>2</div>
+    <div class="big_element"><a href="#" class="jscroll" data-jscroll-vh="1" data-jscroll-offset="8">Scroll  100vh down</a><br><br>3</div>
+    <div class="big_element"><a href="#" class="jscroll" data-jscroll-vh="1" data-jscroll-offset="8">Scroll  100vh down</a><br><br>4</div>
+
+    <div class="big_element"><a href="#" class="jscroll" data-jscroll-up>Scroll All the way up</a><br><br>5</div>
+
+
+    <style>
+    body {
+      font-family: segoe ui;
+  }
+  .desc {
+      max-width: 800px;
+      margin: auto;
+  }
+  h1 {
+      text-align: center;
+  }
+  .big_element {
+   height: 100vh;
+   border: 5px solid green;
+   text-align: center;
+}
+b {
+   display: block;
+   font-size: 1.1em;
+   margin-top: 1rem;
+}
+code {
+   display: block;
+   margin: 1rem;
+   padding: 5px;
+   background-color: #d4d4d4;
+   border-radius: 0.25rem;
+}
+</style>
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="jquery.jscroll.js"></script>
+</body>
+</html>
