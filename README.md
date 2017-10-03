@@ -1,5 +1,7 @@
 # jquery.jscroll
-A JavaScript/jQuery API which uses classes to enable anchor links to change a browser's scroll location.
+A JavaScript/jQuery API which uses classes to enable elements to relatively change a browser's scroll location.
+
+![Scrolling](https://i.imgur.com/pm9fVG1.png)
 
 # Installation
 
