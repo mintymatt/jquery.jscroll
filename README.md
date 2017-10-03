@@ -56,7 +56,9 @@ This decides from what position the scrolling starts. By default it's from the c
 Other relativeTo positions:
 
 `data-jscroll-relativeTo="top"`			- Scrolling starts from top of page. ***Direction setting is ignored.***
+
 `data-jscroll-relativeTo="bottom"`		- Scrolling is inverted, starts at bottom of page. ***Direction setting is ignored.***
+
 `data-jscroll-relativeTo="element"`		-	 Scrolling starts at element position.
 
 ### Full Example:
