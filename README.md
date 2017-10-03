@@ -3,11 +3,11 @@ A JavaScript/jQuery API which uses classes to enable anchor links to change a br
 
 # Installation
 
-This script relies on you having [jQuery](https://jquery.com/) installed and loaded in the same page.
+This project is dependant on [jQuery](https://jquery.com/)
 
-Download all the `dist` [files](https://github.com/mintymatt/jquery.jscroll/tree/master/dist)
+* Download all the [files in the `/dist` folder](https://github.com/mintymatt/jquery.jscroll/tree/master/dist)
 
-You can also recompile the project youself. Download or clone this repo, run `yarn install`, and then `gulp`. 
+* You can also recompile the project youself. Download or clone this repo, run `yarn install`, and then `gulp`. 
 This requires that you have yarn installed and accessible within the same directory. The result will be compiled
 into the `/dist/` folder.
 
