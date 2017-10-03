@@ -1,17 +1,14 @@
 {
-  "name": "jQuery.Jscroll",
-  "version": "1.0.0",
+  "name": "jquery.jscroll",
+  "version": "1.0.4",
   "description": "A JavaScript API which uses classes to enable anchor links to change a browser's scroll location.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Matthew Spence <contact@matt-spence.com>",
-  "license": "ISC",
+  "repository": "https://github.com/mintymatt/jquery.jscroll.git",
+  "author": "Matthew Spence <matthew.spence@clock-work.co.uk>",
+  "license": "MIT",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
-    "gulp-minify": "^1.0.0",
-    "jquery": "^3.2.1"
+    "gulp-minify": "^1.0.0"
   }
 }
