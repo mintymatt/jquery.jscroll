@@ -58,7 +58,8 @@ jQuery(document).ready(function($) {
 
 				break;
 			case "top":
-				dest_offset = offset + (multiplier!=0? (window.innerHeight*multiplier) : $(document).height() );
+				dest_offset = $(window).scrollTop() - (offset + (multiplier!=0? (window.innerHeight*multiplier) : $(document).height() ) );
+				dest_offset = -dest_offset;
 				direction = "down";
 				break;
 			case "bottom":
