@@ -76,11 +76,7 @@ jQuery(document).ready(function($) {
 				dest_offset = -dest_offset;
 		}
 
-		console.log(dest_offset);
-		console.log(direction);
-		console.log(multiplier);
-		console.log(offset);
-		console.log(relativeTo);
+		document.log("Scrolling to "+dest_offset);
 
 		window.scrollBy({
 
