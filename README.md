@@ -26,8 +26,9 @@ To initialize an element for jscroll, simply add the class `jscroll`.
 ### Vertical Scroll Direction Up:
 Optional (by default the scroll direction is down).
 
-Allows you to change the scrolling direction upwards.
-`data-jscroll-up="true"`
+Allows you to change the scrolling direction.
+`data-jscroll-direction="up"`
+`data-jscroll-direction="down"`
 
 ### Vertical Scroll Multiplier:
 Optional.
@@ -44,6 +45,17 @@ This script already takes the relative position of the chosen element to the vie
 extra margins or padding which offsets the element. Here you can specify the aproximate offset in pixels.
 
 `data-jscroll-offset="10"` == 10px
+
+### RelativeTo:
+Optional (by default, relative to clicked element).
+
+This decides from what position the scrolling starts. By default it's from the clicked element.
+
+Other relativeTo positions:
+
+`data-jscroll-relativeTo="top"`			- Scrolling starts from top of page. ***Direction setting is ignored.***
+`data-jscroll-relativeTo="bottom"`		- Scrolling is inverted, starts at bottom of page. ***Direction setting is ignored.***
+`data-jscroll-relativeTo="element"`		=	 Scrolling starts at element position.
 
 ### Full Example:
 This example will scroll the user 200vh downwards when clicked.
