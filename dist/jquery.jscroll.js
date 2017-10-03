@@ -76,7 +76,7 @@ jQuery(document).ready(function($) {
 				dest_offset = -dest_offset;
 		}
 
-		console.log("Scrolling to "+dest_offset);
+		console.log("Scrolling by "+dest_offset+", destination Y: "+$(window).scrollTop()+dest_offset);
 
 		window.scrollBy({
 
