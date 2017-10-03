@@ -69,4 +69,4 @@ When the `jscroll` class is added to an element, the default `click` event is pr
 
 ## Licence
 
-This project acts undet the MIT Licence. Please retain the `LICENCE` file throughout any distribution of this project.
+This project acts under the MIT Licence. Please retain the `LICENCE` file throughout any distribution of this project.
